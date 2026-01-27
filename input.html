@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Shape</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        body { font-family: Arial, sans-serif; }
+        form { margin: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Input Shape Dimensions</h1>
+    </header>
+    <main>
+        <form action="result.html" method="GET" onsubmit="return validateForm()">
+            <label for="shape">Select Shape:</label>
+            <select id="shape" name="shape" required>
+                <option value="rectangle">Rectangle</option>
+                <option value="circle">Circle</option>
+                <option value="triangle">Triangle</option>
+            </select>
+            <div id="dimensions"></div>
+            <button type="submit">Calculate Area</button>
+        </form>
+    </main>
+    <script src="scripts/site.js"></script>
+</body>
+</html>
