@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HackerSpace.Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c56130f5b7a47017dda33608ef37f4c2b87fde1e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0bb487f855314ed772237e00720a38a17360ac6")]
 [assembly: System.Reflection.AssemblyProductAttribute("HackerSpace.Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HackerSpace.Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
